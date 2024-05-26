@@ -10,6 +10,66 @@
 *{
     margin: 0;
 }
+/* main styles for the header and footer */
+
+/* header */
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+header{
+    background-color: var(--nav-color);
+    padding: 12px;
+}
+header img{
+    width: 8rem;
+    border:2px solid var(--brighter-color) ;
+    border-radius: 25%;
+    background: (--brighter-color);
+    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color)
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: .8rem;
+    
+}
+.nav-items a {
+    color: var(--brighter-color);
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    background-color: var(--nav-color);
+    padding: 1rem;
+
+}
+
+footer img{
+    width: 3rem;
+    background-color: var(--brighter-color);
+    border-radius: 50%;
+    
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    color: var(--brighter-color);
+    padding: .2rem;
+}
+.copywrite{
+    font-size: 12px;
+}
+
 /* just the home page */
 #home {
     display: flex;
@@ -35,12 +95,12 @@
     font-size: 2.1rem;
 }
 
-.logo{
+#logo{
     display: inherit
     justify-content: center;
 }
 
-.logo img{
+#logo img{
     border-radius: 25%;
     border: 2px solid #66FCF1 ;
     width: 200px;
