@@ -43,6 +43,12 @@ header img{
 .nav-items a {
     color: var(--brighter-color);
     text-decoration: none;
+    border-radius: 50%;
+}
+.nav-items a:hover{
+    background: (--brighter-color);
+    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
+    transition: .5s;
 }
 
 /* footer */
@@ -62,6 +68,10 @@ footer img{
     display: flex;
     justify-content: space-around;
 }
+.social-media :hover{
+    transform: rotate(3deg) scale(1.2) ;
+    transition: .5s;
+}
 footer p {
     color: var(--brighter-color);
     padding: .2rem;
@@ -70,65 +80,44 @@ footer p {
     font-size: 12px;
 }
 
-/* just the home page */
-#home {
-    display: flex;
-    background-color: var(--nav-color);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100dvh;
+/* tablet screens */
+
+@media screen and (min-width: 768px){
+    /* header */
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .nav-items{
+        width: 50%;
+        font-size: 1.5rem;
+    }
+    header a{
+        width: 50%;
+    }
+    p{
+        font-size: larger;
+    }
 }
 
-#first-sentence{
-    color: var(--text-color);
-    font-size: 1.9rem;
-    margin: 5rem 1rem 5rem;
-    /* width: 50%; */
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+/* Desktop screens */
 
-.highlighted{
-    color: var(--brighter-color);
-    font-size: 2.1rem;
-}
+@media screen and (min-width: 992px){
+    /* header */
+    .nav-items{
+        width: 70%;
+        font-size: 2.5rem;
+    }
+    header a {
+        width: 30%;
+    }
+    /* footer */
+    .social-media{
+        justify-content: space-evenly;
+        width: 80%;
+        padding-left: 10%;
+    }
+   
 
-#logo{
-    display: inherit
-    justify-content: center;
 }
-
-#logo img{
-    border-radius: 25%;
-    border: 2px solid #66FCF1 ;
-    width: 200px;
-    background: (--brighter-color);
-    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color);
-    
-}
-
-#button{
-    text-align: center;
-    padding: 1rem;
-    background-color: #45A29E;
-    cursor: pointer;
-    border-radius: 5%;
-}
-#button a{
-    text-decoration: none;
-    color: var(--brighter-color);
-    font-size: 16px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #1F2833;
-}
-
-#button:hover{
-    background: (--brighter-color);
-    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
-    transition: .5s;
-}
-
-
