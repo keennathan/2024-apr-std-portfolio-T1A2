@@ -12,7 +12,6 @@
     color: var(--text-color);
     font-size: 1.9rem;
     margin: 5rem 1rem 5rem;
-    /* width: 50%; */
     margin-left: auto;
     margin-right: auto;
     
@@ -43,6 +42,7 @@
     background-color: #45A29E;
     cursor: pointer;
     border-radius: 5%;
+    
 }
 #button a{
     text-decoration: none;
@@ -57,4 +57,5 @@
     background: (--brighter-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
     transition: .5s;
+    transform: scale(1.1) translate(1px,0px);
 }
