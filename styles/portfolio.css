@@ -44,7 +44,7 @@ p{
     width: 25rem;
     height: 25rem;
     }
-    a img:hover{
+    section a img:hover{
         transform: rotate(360deg) scale(1.3);
         transition: 3s; 
     }
