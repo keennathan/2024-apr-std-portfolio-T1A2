@@ -5,6 +5,16 @@ main{
     align-items: center;
 
 }
+.heading h1{
+    margin-top: 1rem;
+    color: var(--brighter-color);
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    width: 10rem;
+    border: 2px solid var(--brighter-color);
+    box-shadow: 10px 10px 5px 0px var(--nav-color);
+
+}
 section{
     border: 2px solid var(--brighter-color);
     background-color: var(--primary-color);
@@ -30,12 +40,19 @@ p{
 }
 /* Tablet Screen */
 @media screen and (min-width:768px){
+    .heading {
+        position: absolute;
+        top: 18%;
+        font-size: 1rem;
+        
+    }
     main{
         flex-direction: row;
     }
     section{
         width: 20rem;
         height: 20rem;
+        /* margin: 0 50% 0; */
     }
 }
 /* Desktop Screen */

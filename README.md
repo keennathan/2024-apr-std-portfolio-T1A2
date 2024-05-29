@@ -20,3 +20,6 @@ The about page has a brief introduction about me that includes some skills and o
 
 ### Portfolio Page
 The portfolio page displays two cards with photo and links to other projects.
+
+### Blog Page
+The blog page list blogs with a photo for each, a date, who wrote it and the first sentence or two.  They all link to a different page with the whole blog.

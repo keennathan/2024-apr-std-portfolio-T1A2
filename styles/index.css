@@ -10,6 +10,9 @@
 *{
     margin: 0;
 }
+body{
+    font-family: "Montserrat", sans-serif;
+}
 /* main styles for the header and footer */
 
 /* header */
@@ -36,7 +39,7 @@ header img{
 .nav-items{
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 1.1rem;
     padding: .8rem;
     
 }
@@ -90,11 +93,11 @@ footer p {
         justify-content: space-between;
     }
     .nav-items{
-        width: 50%;
+        width: 60%;
         font-size: 1.5rem;
     }
     header a{
-        width: 50%;
+        width: 40%;
     }
     p{
         font-size: larger;
@@ -107,7 +110,7 @@ footer p {
     /* header */
     .nav-items{
         width: 70%;
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
     header a {
         width: 30%;

@@ -41,7 +41,8 @@
     padding: 1rem;
     background-color: #45A29E;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 1rem;
+    transition: .8s;
     
 }
 #button a{
@@ -50,12 +51,10 @@
     font-size: 16px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #1F2833;
+    color: #eff;
 }
 
 #button:hover{
-    background: (--brighter-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
-    transition: .5s;
     transform: scale(1.1) translate(1px,0px);
 }
