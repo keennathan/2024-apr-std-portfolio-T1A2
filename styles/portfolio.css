@@ -1,3 +1,5 @@
+/* the main component of the page */
+/* designed for mobile first approach */
 main{
     display: flex;
     flex-direction: column;
@@ -15,6 +17,7 @@ main{
     box-shadow: 10px 10px 5px 0px var(--nav-color);
 
 }
+/* for the class portfolio examples and rainbow challange components */
 section{
     border: 2px solid var(--brighter-color);
     background-color: var(--primary-color);
@@ -38,7 +41,9 @@ h3{
 p{
     color: var(--background-color);
 }
+
 /* Tablet Screen */
+
 @media screen and (min-width:768px){
     .heading {
         top: 18%;
@@ -58,6 +63,7 @@ p{
     }
 }
 /* Desktop Screen */
+
 @media screen and (min-width:992px){
    section{
     width: 25rem;

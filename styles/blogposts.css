@@ -1,3 +1,5 @@
+/* the main component of the page */
+/* designed for mobile first approach */
 main {
     display: flex;
     flex-direction: column;
@@ -13,6 +15,7 @@ main {
     color: var(--brighter-color);
     box-shadow: 10px 10px 5px 0px var(--nav-color);
 }
+/* blog container component */
 .blog-container{
     display: flex;
     justify-content: center;
@@ -52,6 +55,7 @@ main {
 .blog-title{
     font-size: 1.5rem;
 }
+/* return button  */
 .button{
     font-size: 2rem;
 }

@@ -1,4 +1,7 @@
 /* just the home page */
+
+/* mobile first approach */
+
 #home {
     display: flex;
     background-color: var(--nav-color);

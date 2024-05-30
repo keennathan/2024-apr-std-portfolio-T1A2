@@ -1,4 +1,5 @@
-
+/* the main component of the page */
+/* designed for mobile first approach */
 main{
     display: flex;
     flex-direction: row;
@@ -16,6 +17,7 @@ main{
     box-shadow: 10px 10px 5px 0px var(--nav-color);
     margin: 1rem 20% 0 20%;
 }
+/* the form panel component */
 .form-card{
     display: flex;
     align-items: center;
@@ -38,6 +40,7 @@ main{
     font-size: 1.5rem;
     color: var(--brighter-color);
 }
+/* the form input areas and submit button */
 .form-input{
     border: 2px solid var(--brighter-color);
     outline: none;
@@ -70,6 +73,7 @@ main{
 }
 
 /* tablet screen */
+
 @media screen and (min-width: 768px){
     .form-element{
         display: flex;

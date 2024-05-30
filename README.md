@@ -5,10 +5,13 @@ Welcome to my web developer portfolio! This website showcases my skills, project
 
 ## Components
 ### Header
-The header component has my logo and a navigation bar.  The navigation bar has links to all the pages.
+The header component has my logo and a navigation bar.  The navigation bar has links to all the pages.  The Header is on all pages.
 
 ### Footer
-The footer component has social media icons that link to my social media accounts.  It also includes contact number and address.  there is also a copywrite at the bottom.
+The footer component has social media icons that link to my social media accounts.  It also includes contact number and address.  There is also a copywrite at the bottom.  The Footer is on all the pages.
+
+### main
+The main component is the main body of content on each page.  It icludes images, text and links to different pages of work.
 
 ## Pages
 
@@ -21,5 +24,22 @@ The about page has a brief introduction about me that includes some skills and o
 ### Portfolio Page
 The portfolio page displays two cards with photo and links to other projects.
 
-### Blog Page
+### Blog List Page
 The blog page list blogs with a photo for each, a date, who wrote it and the first sentence or two.  They all link to a different page with the whole blog.
+#### Blogpost Pages
+The blogpost pages are the full blogs that were listed on the blog page.
+
+### Contact Page
+The contact page shows a panel with a list of input sections with a submit button.
+
+## Tech Stack
+In this website the following technology was used:
+* HTML
+* CSS
+* Figma 
+* Trello
+* Git
+* VS Code
+
+## Sitemap
+

@@ -1,3 +1,5 @@
+/* the main component of the page */
+/* designed for mobile first approach */
 main{
     padding: 1rem;
     display: flex;
@@ -11,6 +13,7 @@ main{
     border: 2px solid var(--brighter-color);
     
 }
+/* the intro section and imgage component */
 #intro img{
     width: 90%;
     margin: 1rem;
@@ -37,6 +40,7 @@ h3{
 ul{
     padding: 1rem;
 }
+/* for the resume link */
 .resume{
     margin-top: 1rem;
     transition: 1s;}

@@ -15,7 +15,10 @@ body{
 }
 /* main styles for the header and footer */
 
-/* header */
+/* designed for mobile first approach */
+
+/* header has the logo and the navigation links*/ 
+
 body{
     min-height: 100dvh;
     display: flex;
@@ -54,13 +57,12 @@ header img{
     transition: .5s;
 }
 
-/* footer */
+/* footer has my contact details and links to social media*/
 footer{
     background-color: var(--nav-color);
     padding: 1rem;
 
 }
-
 footer img{
     width: 3rem;
     background-color: var(--brighter-color);
@@ -86,7 +88,7 @@ footer p {
 /* tablet screens */
 
 @media screen and (min-width: 768px){
-    /* header */
+    /* header  */
     header {
         display: flex;
         align-items: flex-end;
