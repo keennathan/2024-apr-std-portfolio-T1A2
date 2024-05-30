@@ -41,18 +41,20 @@ p{
 /* Tablet Screen */
 @media screen and (min-width:768px){
     .heading {
-        position: absolute;
         top: 18%;
         font-size: 1rem;
-        
+        width: 100%;
+        display: inherit;
+        justify-content: center;
     }
     main{
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     section{
-        width: 20rem;
-        height: 20rem;
-        /* margin: 0 50% 0; */
+        width: 19rem;
+        height: 19rem;
     }
 }
 /* Desktop Screen */

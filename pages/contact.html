@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan's Portfolio</title>
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -20,7 +21,40 @@
             <a href="./contact.html">Contact</a>
         </nav>
     </header>
-    <main></main>
+    
+    
+    <main>  
+        <div class="form-heading">
+            <h1>Contact Me</h1>
+        </div>
+        <section class="form-card">  
+            <section class="main-text">
+                <h2>Let's have a chat</h2>
+                <p>Feel free to contact me via this form, or any of my socials, and I'll get back to you shortly.</p>
+            </section>        
+            <form>
+                <div class="form-element">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" class="form-input" placeholder="Johnny Smith" required >
+                </div>
+                <div class="form-element">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" class="form-input" placeholder="johnnysmith@123.com" required>
+                </div>
+                <div class="form-element">
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" class="form-input">
+                </div>
+                <div class="form-element">
+                    <label for="message">Message:</label>
+                    <textarea rows="3" name="message" class="form-input form-textarea"></textarea>
+                </div>
+                <div class="form-element">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <footer>
         <div class="social-media">
             <a href="https://github.com/keennathan" target="blank">

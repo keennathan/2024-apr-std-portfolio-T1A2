@@ -37,6 +37,23 @@ h3{
 ul{
     padding: 1rem;
 }
+.resume{
+    margin-top: 1rem;
+    transition: 1s;}
+.resume a{
+    color: var(--nav-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+    border: 2px solid var(--brighter-color);
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: var(--background-color);
+    font-style: italic;
+}
+.resume:hover{
+    transform: scale(1.2);
+}
+
 /* tablet screen */
 @media screen and (min-width:768px){
     main{
