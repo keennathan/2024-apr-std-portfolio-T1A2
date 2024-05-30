@@ -3,6 +3,13 @@
 ## Overview 
 Welcome to my web developer portfolio! This website showcases my skills, projects, and experience in web development. Here you will find a five page website, demonstrating my proficiency in designing and creating a responsive website.  Whether you are a potential employer, client, or fellow developer, I hope you find my portfolio both informative and inspiring.
 
+## Website Links
+* Portfolio website - https://nathan-portfolio-t1a2.netlify.app/
+* Github Repository - https://github.com/keennathan/2024-apr-std-portfolio-T1A2
+
+## Target Audience
+The target audience is for potential employers or anyone looking to engage the expertise of a web developer.
+
 ## Components
 ### Header
 The header component has my logo and a navigation bar.  The navigation bar has links to all the pages.  The Header is on all pages.
@@ -40,6 +47,7 @@ In this website the following technology was used:
 * Trello
 * Git
 * VS Code
+* Netlify
 
 ## Sitemap
 
