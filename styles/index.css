@@ -36,7 +36,7 @@ header img{
     width: 8rem;
     border:2px solid var(--brighter-color) ;
     border-radius: 25%;
-    background: (--brighter-color);
+    background: var(--brighter-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color)
 }
 .nav-items{
@@ -52,7 +52,7 @@ header img{
     border-radius: 50%;
 }
 .nav-items a:hover{
-    background: (--brighter-color);
+    background: var(--brighter-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
     transition: .5s;
 }

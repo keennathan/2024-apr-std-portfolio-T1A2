@@ -34,7 +34,7 @@
     border-radius: 25%;
     border: 2px solid #66FCF1 ;
     width: 200px;
-    background: (--brighter-color);
+    background: var(--brighter-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color);
     
 }
