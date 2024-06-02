@@ -13,11 +13,11 @@ The target audience is for potential employers or anyone looking to engage the e
 ## Components
 
 ### Header
-The header component has my logo and a navigation bar.  The navigation bar has links to all the pages.  The Header is on all pages.
+The header component includes my logo and a navigation bar with links to all the pages. It remains consistent across all pages.
 ![Header/nav bar](docs/navbar.png)
 
 ### Footer
-The footer component has social media icons that link to my social media accounts.  It also includes contact number and address.  There is also a copywrite at the bottom.  The Footer is on all the pages.
+The footer includes social media icons linking to my profiles, contact information, and a copyright notice. It's present on every page.
 ![Footer](docs/footer.png)
 
 ### main
@@ -30,19 +30,19 @@ Home page displays a logo that links to the home page. It has a breif introducti
 ![landing page](docs/home.png)
 
 ### About Page
-The about page has a brief introduction about me that includes study history, some skills and other things about me. It has a link to my resume at the bottom and has a hover feature.
+The about page offers insights into my background, skills, and interests. It includes a link to my resume and features hover effects for engagement.
 
 
 ### Portfolio Page
-The portfolio page displays two cards with photo and links to other projects.  The images have a animation when hovered over.
+The portfolio page showcases selected projects through interactive cards with project details and links. Hover animations add visual appeal.
 
 ### Blog List Page
-The blog page lists blogs on a panel with a photo for each, a date, who wrote it and the first sentence or two.  They all link to a different page with the whole blog. When hovered over it scales up in size.
+The blog page lists articles with publication dates, authors, and excerpts. Each article links to a dedicated page with the full content. Hover effects enhance user interaction
 #### Blogpost Pages
-The blogpost pages are the full blogs that were listed on the blog page and it is displayed on a single panel.  At the bottom of the panel it has a back botton that links back to the blog page.
+Dedicated pages for each blog post display the full content with a back button for navigation.
 
 ### Contact Page
-The contact page shows a panel with a list of input sections with a submit button.  When the input sections are focused on it lights up from box-shadowing.
+The contact page features input fields for user queries and a submit button. Interactive styling highlights active input sections.
 
 ## Tech Stack
 In this website the following technology was used:
