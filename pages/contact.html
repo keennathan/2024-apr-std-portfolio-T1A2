@@ -28,7 +28,7 @@
             <h1>Contact Me</h1>
         </div>
     <!-- this form component has heading and a paragraph, then some input sections -->
-        <section class="form-card">  
+        <div class="form-card">  
             <section class="main-text">
                 <h2>Let's have a chat</h2>
                 <p>Feel free to contact me via this form, or any of my socials, and I'll get back to you shortly.</p>
@@ -36,25 +36,25 @@
             <form>
                 <div class="form-element">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" class="form-input" placeholder="Johnny Smith" required >
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Johnny Smith" required>
                 </div>
                 <div class="form-element">
                     <label for="email">Email:</label>
-                    <input type="text" name="email" class="form-input" placeholder="johnnysmith@123.com" required>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="johnnysmith@123.com" required>
                 </div>
                 <div class="form-element">
                     <label for="subject">Subject:</label>
-                    <input type="text" name="subject" class="form-input">
+                    <input type="text" id="subject" name="subject" class="form-input">
                 </div>
                 <div class="form-element">
                     <label for="message">Message:</label>
-                    <textarea rows="3" name="message" class="form-input form-textarea"></textarea>
+                    <textarea id="message" name="message" class="form-input form-textarea" rows="3"></textarea>
                 </div>
                 <div class="form-element">
                     <button type="submit" id="submit">Submit</button>
                 </div>
             </form>
-        </section>
+        </div>
     </main>
 <!-- the footer has social media icons with links and contact details and a copywrite -->
     <footer>
@@ -74,7 +74,7 @@
             <p>Address: 1 Some Rd, Somewhere, QLD, 4868</p>
         </div>
         <div>
-            <p class="copywrite">&copy Nathan Keen 2024</p>
+            <p class="copywrite">&copy; Nathan Keen 2024</p>
         </div>
     </footer>
 </body>
