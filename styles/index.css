@@ -52,7 +52,7 @@ header img{
     border-radius: 50%;
 }
 .nav-items a:hover{
-    background: var(--brighter-color);
+    background: var(--nav-color);
     box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
     transition: .5s;
 }
