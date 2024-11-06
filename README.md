@@ -13,11 +13,11 @@ The target audience is for potential employers or anyone looking to engage the e
 ## Components
 
 ### Header
-The header component includes my logo and a navigation bar with links to all the pages. It remains consistent across all pages.
-![Header/nav bar](docs/navbar.png)
+The header component includes my logo and a navigation bar with links to all the pages. It remains consistent across all pages.  
+![Header/nav bar](docs/navbar.png)  
 
 ### Footer
-The footer includes social media icons linking to my profiles, contact information, and a copyright notice. It's present on every page.
+The footer includes social media icons linking to my profiles, contact information, and a copyright notice. It's present on every page.  
 ![Footer](docs/footer.png)
 
 ### main
@@ -26,7 +26,7 @@ The main component is the main body of content on each page.  It icludes images,
 ## Pages
 
 ### Home Page
-Home page displays a logo that links to the home page. It has a breif introduction and what I do and a link to the about page.  The button component has a hover feature.
+Home page displays a logo that links to the home page. It has a breif introduction and what I do and a link to the about page.  The button component has a hover feature.  
 ![landing page](docs/home.png)
 
 ### About Page
@@ -61,7 +61,7 @@ The sitemap was created using figma.  It is to design the structure and relation
 * About Me page
 * Portfolio Page
 * Blog Page
-* Contact Page
+* Contact Page  
 ![alt text](docs/sitemap.png)
 
 ## Wireframes
