@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan's Portfolio</title>
+<!-- style sheets -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- header has logo and navbar -->
+    <header>
+        <a href="../index.html">
+            <img src="../images/Logo.png" alt="Nathan's logo">
+        </a>
+        <nav class="nav-items">
+            <a href="../index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>  
+        <div class="form-heading">
+            <h1>Contact Me</h1>
+        </div>
+    <!-- this form component has heading and a paragraph, then some input sections -->
+        <div class="form-card">  
+            <section class="main-text">
+                <h2>Let's have a chat</h2>
+                <p>Feel free to contact me via this form, or any of my socials, and I'll get back to you shortly.</p>
+            </section>        
+            <form>
+                <div class="form-element">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Johnny Smith" required>
+                </div>
+                <div class="form-element">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="johnnysmith@123.com" required>
+                </div>
+                <div class="form-element">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="form-input">
+                </div>
+                <div class="form-element">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" rows="3"></textarea>
+                </div>
+                <div class="form-element">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+<!-- the footer has social media icons with links and contact details and a copywrite -->
+    <footer>
+        <div class="social-media">
+            <a href="https://github.com/keennathan" target="blank">
+                <img src="../images/github-icon.png" alt="github icon" >
+            </a>
+            <a href="https://linkedin.com/in/nathan-keen-48163720b" target="_blank">
+                <img src="../images/linkedin-app-icon.png" alt="linkedin icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../images/ig-instagram-icon.png" alt="Instagram icon">
+            </a>
+        </div>
+        <div class="info">
+            <p>Contact Number: 0466 380 864</p>
+            <p>Address: 1 Some Rd, Somewhere, QLD, 4868</p>
+        </div>
+        <div>
+            <p class="copywrite">&copy; Nathan Keen 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

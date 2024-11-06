@@ -1,0 +1,128 @@
+/* The colour palette */
+:root {
+    --primary-color: #1F2833;
+    --background-color: #45A29E;
+    --nav-color: #0B0C10;
+    --brighter-color: #66FCF1;
+    --text-color: #C5C6C7;
+}
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* main styles for the header and footer */
+
+/* designed for mobile first approach */
+
+/* header has the logo and the navigation links*/ 
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+header{
+    background-color: var(--nav-color);
+    padding: 12px;
+}
+header img{
+    width: 8rem;
+    border:2px solid var(--brighter-color) ;
+    border-radius: 25%;
+    background: var(--brighter-color);
+    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color)
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    padding: .8rem;
+    
+}
+.nav-items a {
+    color: var(--brighter-color);
+    text-decoration: none;
+    border-radius: 50%;
+}
+.nav-items a:hover{
+    background: var(--nav-color);
+    box-shadow: 0 0 10px var(--brighter-color), 0 0 40px var(--brighter-color), 0 0 80px var(--brighter-color); 
+    transition: .5s;
+}
+
+/* footer has my contact details and links to social media*/
+footer{
+    background-color: var(--nav-color);
+    padding: 1rem;
+
+}
+footer img{
+    width: 3rem;
+    background-color: var(--brighter-color);
+    border-radius: 50%;
+    
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
+.social-media :hover{
+    transform: rotate(3deg) scale(1.2) ;
+    transition: .5s;
+}
+footer p {
+    color: var(--brighter-color);
+    padding: .2rem;
+}
+.copywrite{
+    font-size: 12px;
+}
+
+/* tablet screens */
+
+@media screen and (min-width: 768px){
+    /* header  */
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .nav-items{
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    header a{
+        width: 40%;
+    }
+    p{
+        font-size: larger;
+    }
+}
+
+/* Desktop screens */
+
+@media screen and (min-width: 992px){
+    /* header */
+    .nav-items{
+        width: 70%;
+        font-size: 2.0rem;
+    }
+    header a {
+        width: 30%;
+    }
+    /* footer */
+    .social-media{
+        justify-content: space-evenly;
+        width: 80%;
+        padding-left: 10%;
+    }
+   
+
+}
